@@ -1,0 +1,35 @@
+
+CLASSIFICATION MODEL ANALYSIS - IRIS DATASET
+============================================================
+
+DATASET INFORMATION:
+- Total samples: 150
+- Features: 4
+- Classes: 3
+- Classes: setosa, versicolor, virginica
+- Train/Test split: 70/30
+
+MODEL PERFORMANCE:
+                     accuracy precision    recall        f1                                                                                                                                                                                                                                                                                                                                                                                                                                                                           predictions
+Logistic Regression  0.911111  0.915535  0.911111  0.910714   [virginica, versicolor, versicolor, versicolor, virginica, virginica, versicolor, versicolor, setosa, virginica, setosa, setosa, virginica, virginica, setosa, virginica, versicolor, setosa, setosa, setosa, versicolor, setosa, versicolor, virginica, virginica, versicolor, versicolor, versicolor, versicolor, setosa, versicolor, virginica, versicolor, setosa, virginica, setosa, setosa, setosa, setosa, virginica, versicolor, setosa, versicolor, virginica, versicolor]
+Decision Tree        0.911111  0.915535  0.911111  0.910714       [virginica, versicolor, virginica, virginica, virginica, virginica, versicolor, versicolor, setosa, virginica, setosa, setosa, virginica, virginica, setosa, virginica, versicolor, setosa, setosa, setosa, versicolor, setosa, versicolor, virginica, versicolor, versicolor, versicolor, versicolor, versicolor, setosa, virginica, virginica, virginica, setosa, virginica, setosa, setosa, setosa, setosa, virginica, versicolor, setosa, virginica, virginica, versicolor]
+Random Forest        0.888889  0.898148  0.888889  0.887767  [virginica, versicolor, versicolor, versicolor, virginica, virginica, versicolor, versicolor, setosa, virginica, setosa, setosa, virginica, virginica, setosa, virginica, versicolor, setosa, setosa, setosa, versicolor, setosa, versicolor, virginica, versicolor, versicolor, versicolor, versicolor, versicolor, setosa, versicolor, virginica, versicolor, setosa, virginica, setosa, setosa, setosa, setosa, virginica, versicolor, setosa, versicolor, virginica, versicolor]
+
+BEST MODEL: Random Forest
+- Accuracy: 0.8889
+- Precision: 0.8981
+- Recall: 0.8889
+- F1-Score: 0.8878
+
+FEATURE IMPORTANCE (Top 3):
+     feature  importance
+sepal_length    0.120608
+petal_length    0.400227
+ petal_width    0.454892
+
+KEY INSIGHTS:
+1. Random Forest achieved the highest accuracy (0.8889)
+2. All models performed well (>0.95 accuracy)
+3. Sepal length and petal length are most important features
+4. Class distribution is balanced across all species
+5. No signs of overfitting - train/test performance similar

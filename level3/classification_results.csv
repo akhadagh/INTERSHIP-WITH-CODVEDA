@@ -1,0 +1,25 @@
+,accuracy,precision,recall,f1,predictions
+Logistic Regression,0.9111111111111111,0.9155354449472096,0.9111111111111111,0.9107142857142857,"['virginica' 'versicolor' 'versicolor' 'versicolor' 'virginica'
+ 'virginica' 'versicolor' 'versicolor' 'setosa' 'virginica' 'setosa'
+ 'setosa' 'virginica' 'virginica' 'setosa' 'virginica' 'versicolor'
+ 'setosa' 'setosa' 'setosa' 'versicolor' 'setosa' 'versicolor' 'virginica'
+ 'virginica' 'versicolor' 'versicolor' 'versicolor' 'versicolor' 'setosa'
+ 'versicolor' 'virginica' 'versicolor' 'setosa' 'virginica' 'setosa'
+ 'setosa' 'setosa' 'setosa' 'virginica' 'versicolor' 'setosa' 'versicolor'
+ 'virginica' 'versicolor']"
+Decision Tree,0.9111111111111111,0.9155354449472096,0.9111111111111111,0.9107142857142857,"['virginica' 'versicolor' 'virginica' 'virginica' 'virginica' 'virginica'
+ 'versicolor' 'versicolor' 'setosa' 'virginica' 'setosa' 'setosa'
+ 'virginica' 'virginica' 'setosa' 'virginica' 'versicolor' 'setosa'
+ 'setosa' 'setosa' 'versicolor' 'setosa' 'versicolor' 'virginica'
+ 'versicolor' 'versicolor' 'versicolor' 'versicolor' 'versicolor' 'setosa'
+ 'virginica' 'virginica' 'virginica' 'setosa' 'virginica' 'setosa'
+ 'setosa' 'setosa' 'setosa' 'virginica' 'versicolor' 'setosa' 'virginica'
+ 'virginica' 'versicolor']"
+Random Forest,0.8888888888888888,0.8981481481481481,0.8888888888888888,0.8877665544332211,"['virginica' 'versicolor' 'versicolor' 'versicolor' 'virginica'
+ 'virginica' 'versicolor' 'versicolor' 'setosa' 'virginica' 'setosa'
+ 'setosa' 'virginica' 'virginica' 'setosa' 'virginica' 'versicolor'
+ 'setosa' 'setosa' 'setosa' 'versicolor' 'setosa' 'versicolor' 'virginica'
+ 'versicolor' 'versicolor' 'versicolor' 'versicolor' 'versicolor' 'setosa'
+ 'versicolor' 'virginica' 'versicolor' 'setosa' 'virginica' 'setosa'
+ 'setosa' 'setosa' 'setosa' 'virginica' 'versicolor' 'setosa' 'versicolor'
+ 'virginica' 'versicolor']"
