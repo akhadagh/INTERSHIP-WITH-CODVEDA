@@ -1,4 +1,11 @@
-# Level 2 Report - Intermediate Data Analytics
+# Level 2 Report: Intermediate Analysis
+## Data Analytics Internship Project
+
+---
+
+## Executive Summary
+
+Level 2 focuses on two critical machine learning techniques: **Regression Analysis** and **K-Means Clustering**. These techniques help us predict values and discover patterns in data. This report documents the analysis, methodology, findings, and insights from both tasks.
 
 ## Introduction
 
